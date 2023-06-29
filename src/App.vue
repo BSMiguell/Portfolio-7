@@ -2,18 +2,21 @@
   <div id="app">
     <NavbarView />
     <HeaderView />
+    <AboutView />
   </div>
 </template>
 
 <script>
 import NavbarView from "./components/NavbarView.vue";
 import HeaderView from "./components/HeaderView.vue";
+import AboutView from "./components/AboutView.vue";
 
 export default {
   name: "App",
   components: {
     NavbarView,
     HeaderView,
+    AboutView,
   },
 };
 </script>
@@ -98,10 +101,6 @@ body {
 
   .action__btns {
     gap: 2rem;
-  }
-
-  .about__container {
-    flex-direction: row;
   }
 
   .about__content {
