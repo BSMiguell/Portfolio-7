@@ -5,6 +5,7 @@
     <AboutView />
     <ServiceView />
     <ProjectsView />
+    <FooterView />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HeaderView from "./components/HeaderView.vue";
 import AboutView from "./components/AboutView.vue";
 import ServiceView from "./components/ServiceView.vue";
 import ProjectsView from "./components/ProjectsView.vue";
+import FooterView from "./components/FooterView.vue";
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
     AboutView,
     ServiceView,
     ProjectsView,
+    FooterView,
   },
 };
 </script>
