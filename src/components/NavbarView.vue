@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <nav>
-      <div class="nav__logo"><a href="#">Cod<span>e</span>r.</a></div>
+      <div class="nav__logo"><a href="#">BS<span>M</span>:D.</a></div>
     </nav>
   </div>
 </template>
