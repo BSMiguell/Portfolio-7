@@ -20,12 +20,10 @@ nav {
   max-width: var(--max-width);
   padding: 1rem;
 }
-
 nav .nav__logo a {
   font-size: 1.5rem;
   font-weight: 600;
 }
-
 nav .nav__logo a span {
   color: var(--secondary-color);
 }

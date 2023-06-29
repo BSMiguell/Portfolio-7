@@ -7,7 +7,7 @@
 
       <div class="about__content">
         <h2 class="section__title">About <span>Me</span></h2>
-        <p class="section__subtitle">Vue/JS Web Developer.!</p>
+        <p class="section__subtitle">Vue/JS Web Developer!!</p>
         <p class="about__details">
           Welcome to my web developer portfolio! I'm BSM, a skilled and creative
           web developer with a passion for creating beautiful, responsive, and
@@ -38,7 +38,6 @@ export default {};
   flex-direction: row;
   gap: 1rem;
 }
-
 .about__image,
 .about__content {
   flex: 1;

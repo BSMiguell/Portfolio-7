@@ -36,8 +36,6 @@ export default {};
 </script>
 
 <style>
-@import "~@fortawesome/fontawesome-free/css/all.css";
-
 header {
   height: 100vh;
   background-image: url("../assets/header-bg.png");
@@ -45,7 +43,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .header__container {
   height: 100%;
   display: flex;
@@ -75,14 +72,12 @@ header {
   gap: 1rem;
   flex-wrap: wrap;
 }
-
 .action__btns .video {
   display: flex;
   align-items: center;
   gap: 1rem;
   cursor: pointer;
 }
-
 .action__btns .video .play {
   height: 50px;
   width: 50px;
@@ -93,12 +88,10 @@ header {
   background-color: var(--secondary-color);
   transition: 0.3s;
 }
-
 .action__btns .video span {
   font-size: 1rem;
   font-weight: 600;
 }
-
 .action__btns .video:hover .play {
   background-color: var(--secondary-color-dark);
 }

@@ -3,6 +3,8 @@
     <NavbarView />
     <HeaderView />
     <AboutView />
+    <ServiceView />
+    <ProjectsView />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import NavbarView from "./components/NavbarView.vue";
 import HeaderView from "./components/HeaderView.vue";
 import AboutView from "./components/AboutView.vue";
+import ServiceView from "./components/ServiceView.vue";
+import ProjectsView from "./components/ProjectsView.vue";
 
 export default {
   name: "App",
@@ -17,11 +21,14 @@ export default {
     NavbarView,
     HeaderView,
     AboutView,
+    ServiceView,
+    ProjectsView,
   },
 };
 </script>
 
 <style>
+@import "~@fortawesome/fontawesome-free/css/all.css";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
@@ -111,12 +118,6 @@ body {
     text-align: left;
   }
 
-  .service__grid,
-  .project__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -125,11 +126,6 @@ body {
   .header__container h1 {
     font-size: 5rem;
     line-height: 5rem;
-  }
-
-  .service__grid,
-  .project__grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 430px) {
